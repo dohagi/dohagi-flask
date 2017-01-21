@@ -1,0 +1,8 @@
+flask
+flask-admin
+flask-migrate
+flask-sqlalchemy
+google-api-python-client
+pymysql
+flask-bcrypt
+flake8
