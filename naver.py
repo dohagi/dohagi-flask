@@ -35,6 +35,7 @@ def searchNotebook():
                 continue
             names.append(name)
             d['name'] = name
+            d['brand'] = name.split()[0]
             d['lprice'] = item['lprice']
             d['image'] = item['image']
             result.append(d)
@@ -78,6 +79,7 @@ def searchSmartphone():
 
             names.append(name)
             d['name'] = name
+            d['brand'] = tmp[0]
             d['image'] = item['image']
             result.append(d)
         return result

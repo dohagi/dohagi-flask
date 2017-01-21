@@ -46,8 +46,7 @@ def makeDB():
         iteminfos[1][i]['reviews'] = search(iteminfos[1][i]['name'])
     #index()
     #else:
-    print(json.dumps(iteminfos))
-    #return jsonify(iteminfos)
+    return json.dumps(iteminfos)
 
 #if __name__ == "__main__":
 #    app.run(debug=True, host="0.0.0.0", port=8000)
